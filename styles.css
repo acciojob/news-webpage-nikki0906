@@ -20,6 +20,15 @@ body {
   color: white;
 }
 
+.latest-news-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.latest-news-section li {
+  margin-bottom: 10px;
+}
+
 .pictorial-news-section {
   background-color: #ffffff;
   padding: 20px;
@@ -29,9 +38,13 @@ body {
   border-radius: 10px;
 }
 
+.pictorial-news-section h3 {
+  margin-top: 0;
+}
+
 .pictorial-news-section img {
   display: block;
   width: 80%;
   margin: 20px auto;
+  border-radius: 10px;
 }
-
